@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # Reading an image
-img = cv.imread('../img/dog.jpg')
+img = cv.imread('img/dog.jpg')
 cv.imshow('dog', img)
 cv.waitKey(0)
 
@@ -30,7 +30,7 @@ cv.waitKey(0)
 
 # # Video Reading
 
-# capture = cv.VideoCapture('../videos/cat.mp4')
+# capture = cv.VideoCapture('videos/cat.mp4')
 
 # while True:
 #     isTrue, frame = capture.read()
